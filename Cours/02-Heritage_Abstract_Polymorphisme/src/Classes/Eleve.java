@@ -31,6 +31,7 @@ public class Eleve extends Utilisateur {
         this.classe = newClasse;
     }
 
+    @Override
     public String toString() {
         String message = "==============================\n";
         message += "Nom : " + this.nom + "\n";

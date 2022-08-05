@@ -40,6 +40,7 @@ public class Classe {
         this.eleves.add(newEleve);
     }
 
+    @Override
     public String toString() {
         String message = "==============================\n";
         message += "Nom classe : " + this.nom + "\n";

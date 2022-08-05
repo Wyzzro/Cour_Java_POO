@@ -31,6 +31,7 @@ public class Professeur extends Utilisateur {
         this.profPrincipale = newProfPrincipale;
     }
 
+    @Override
     public String toString() {
         String message = "==============================\n";
         message += "Nom : " + this.nom + "\n";
